@@ -1,0 +1,193 @@
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 5%;
+}
+
+.ques{
+    padding-top: 2%;
+    color: white;
+    font-size: 32px;
+}
+
+.cont{
+    padding: 2%;
+    font-size: 25px;
+}
+
+.textt{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    font-size: 25px;
+    color: red;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.textt img{
+    height: 6vh;
+}
+
+.done{
+    height: 6vh;
+    width: 10vw;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    font-size: 17px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.done1{
+    height: 6vh;
+    width: 10vw;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    font-size: 17px;
+    border: 0px;
+    cursor: pointer;
+    box-shadow: 3px 5px 5px rgba(109, 1, 1, 0.588);
+}
+
+.done2{
+    height: 6vh;
+    width: 10vw;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    font-size: 17px;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 15%;
+    box-shadow: 3px 5px 5px rgba(109, 1, 1, 0.588);
+}
+
+.high{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    margin-right: 4%;
+}
+
+.light{
+    height: 6vh;
+    border-radius: 1rem;
+    width: 12vw;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.light:hover{
+    background-color: white;
+    color: black;
+}
+
+.option{
+    background-color: darkgrey;
+    color: white;
+    margin: 0.5%;
+    font-size: 20px;
+    border-radius: 1rem;
+    /* text-align: center; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 70vw;
+    margin-left: 6%;
+    cursor: pointer;
+    box-shadow: 4px 7px 5px rgba(45, 40, 40, 0.588);
+    transition: 1s;
+}
+
+.option:hover{
+    transform: scale(1.05);
+}
+
+.main{
+    color: black;
+    background-color: #757272;
+    text-align: center;
+    height: 70vh;
+    width: 80vw;
+    margin-left: 10%;
+    /* margin-top: 9%; */
+    border-radius: 2rem;
+    box-shadow: 8px 8px 5px rgba(107, 107, 107, 0.229);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.result{
+    background-color: #a49d9d;
+    height: 50vh;
+    width: 60vw;
+    margin-left: 18%;
+    margin-top: 6%;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.final{
+    font-size: 25px;
+    padding-top: 3%;
+}
+
+@media screen and (max-width:600px){
+    .light{
+        width: 150%;
+        height: 80%;
+    }
+
+    .grid2{
+        font-size: 15px;
+    }
+
+    .done{
+        width: 40%;
+        height: 26px;
+        font-size: 10px;
+    }
+
+    .done1{
+        font-size: 10px;
+        height: 5vh;
+        width: 20vw;
+        }
+
+    .done2{
+    font-size: 10px;
+    height: 5vh;
+    width: 20vw;
+    }
+
+    .option{
+        height: 5vh;
+        font-size: 12px;
+    }
+}
